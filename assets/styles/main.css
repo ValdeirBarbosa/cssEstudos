@@ -174,6 +174,7 @@ nav  a:hover{
     margin-top:20px;
     font-size:21;
     font-weight: bold;
+    margin-left:10px;
 }
 .widget_title_bar{
     width:50px;
@@ -189,7 +190,7 @@ nav  a:hover{
 article{
     flex:1;
     min-width: 300px;
-    margin-right:20px;
+   margin: 0 10px 10px 10px;
 }
 article a{
     text-decoration:none;
@@ -237,3 +238,127 @@ article .news_resume{
     text-align: justify;
 }
 
+footer{
+    background-color: #1e1e1e;
+    display:flex;
+    justify-content: center;
+}
+
+.footer-menu{
+    display:flex;
+   
+}
+
+.fm-1,
+.fm-2,
+.fm-3{
+    flex:1;
+    color:#fff;
+    padding:20px;
+}
+
+.fm-1{
+    background-color:#39aae1;  
+}
+
+.fm-2{
+    background-color:#0079c7;
+}
+
+.fm-3{
+   background-color:#2b4c99;
+}
+
+.footer-area{
+    display:flex; 
+   
+}
+
+.footer-area-item{
+    flex:1;
+    color:#FFF;
+}
+
+.flex-column{
+  
+    flex-direction: column;
+}
+
+.departaments a {
+    background-color:#0079c7;
+    text-decoration:none ;
+    text-align: center;
+    line-height: 150px;
+    color:#fff;
+    font-weight: bold;
+
+}
+
+
+.wd-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding:5px;
+    margin-top:5px;
+    border-bottom:1px solid grey;
+}
+.wd-content img{
+    margin-right: 15px;
+}
+
+.departaments{
+    display: flex;
+    flex-direction: colum;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.departaments a {
+    margin:0 0 15px 15px;
+}
+
+.dept-block{
+    width: 150px;
+    height: 150px;
+    
+}
+.footer-copy{
+    border-top:1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color:#5c5c5c;
+    font-size: 12px;
+    margin-top:30px;
+}
+.adress{
+    display: flex;
+}
+
+@media(max-width:600px){
+    aside{
+        width: 100%;
+        height: 50px;
+    }
+    #geral{
+        display:none ;
+    }
+
+    .departaments{
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    
+    .departaments a {
+        margin:0 10px ;
+    }
+    
+    .dept-block{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+}
